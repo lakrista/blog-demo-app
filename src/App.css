@@ -1,72 +1,73 @@
 .app-wrapper {
-	display: grid;
-	grid-template-areas:
-  "h h h"
-  "n n n"
-	"c c c";
-	grid-template-columns: 2fr 10fr;
+    display: grid;
+    grid-template-areas:
+            "h h h"
+            "n n n"
+            "c c c";
+    grid-template-columns: 2fr 10fr;
 }
 
 .header {
-  grid-area: h;
-  background-color: lightyellow;
+    grid-area: h;
+    background-color: lightyellow;
 }
 
 .header img {
-  width: 150px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .nav {
-  grid-area: n;
-  background-color: lightyellow;
-  text-align: center;
+    grid-area: n;
+    background-color: lightyellow;
+    text-align: center;
 }
 
 nav {
-  padding-left: 0;
-  list-style: none;
-  display:inline;
+    padding-left: 0;
+    list-style: none;
+    display: inline;
 }
 
 nav li {
-  position:relative;
-  display:inline-block;
-  list-style-type: none;
-  font-family: "Open Sans", "Droid Sans", Helvetica, Arial, sans-serif;
-  color: #222;
-  padding:0 1rem;
+    position: relative;
+    display: inline-block;
+    list-style-type: none;
+    font-family: "Open Sans", "Droid Sans", Helvetica, Arial, sans-serif;
+    color: #222;
+    padding: 0 1rem;
 }
 
 nav li > a {
-  position: relative;
-  display: block;
-  padding: 10px 15px;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
 }
+
 nav > li > a:hover,
 nav > li > a:focus {
-  text-decoration: none;
-  background-color: #eee;
+    text-decoration: none;
+    background-color: #eee;
 }
 
 .content {
-	grid-area: c;
-	background-color: lightyellow;
+    grid-area: c;
+    background-color: lightyellow;
 }
 
 .content-main-img img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .container-fluid {
-  padding-top: 1em;
-  padding-bottom: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 .card {
-  border-color: rgb(255, 228, 159);
+    border-color: rgb(255, 228, 159);
 }
