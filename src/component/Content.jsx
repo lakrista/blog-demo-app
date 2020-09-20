@@ -30,6 +30,16 @@ const Content = () => {
             id: '5',
             title: 'Some title 5',
             text: 'Some 5'
+        },
+        {
+            id: '6',
+            title: 'Some title 6',
+            text: 'Some text text text text text text 6'
+        },
+        {
+            id: '7',
+            title: 'Some title 7',
+            text: 'Some text text text text text text 7'
         }
     ];
 
