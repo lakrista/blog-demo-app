@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Navbar = () => {
-	return <nav className='nav'>
+	return <nav className='nav justify-content-center'>
 		<ul>
 			<a href="some"><li>Home</li></a>
 			<a href="some"><li>Blog</li></a>

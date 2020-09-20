@@ -1,7 +1,7 @@
 import React from 'react';
 import mainLogo from './../background-backlight-blur-color.jpg';
 import Article from "./Article";
-import {CardDeck} from "react-bootstrap";
+import {CardColumns} from "react-bootstrap";
 
 const Content = () => {
 
@@ -14,12 +14,22 @@ const Content = () => {
         {
             id: '2',
             title: 'Some title 2',
-            text: 'Some text text text 2'
+            text: 'Some text text text text text text text text text text text text text text 2'
         },
         {
             id: '3',
             title: 'Some title 3',
-            text: 'Some text text text 3'
+            text: 'Some text text text text text text text text text text text text text 3'
+        },
+        {
+            id: '4',
+            title: 'Some title 4',
+            text: 'Some text text text text text text text text text text text text text text text text text text text text text text text text 4'
+        },
+        {
+            id: '5',
+            title: 'Some title 5',
+            text: 'Some 5'
         }
     ];
 
@@ -33,10 +43,10 @@ const Content = () => {
         }
     };
 
-    return <div className='content'>
+    return <div className="content">
         <div className="content-main-img"><img alt="" src={mainLogo}/></div>
-        <div>
-            <CardDeck>{renderArticles(articles)}</CardDeck>
+        <div className="container-fluid">
+            <CardColumns>{renderArticles(articles)}</CardColumns>
         </div>
     </div>
 };
