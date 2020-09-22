@@ -4,6 +4,7 @@ import {Route, Switch} from "react-router-dom";
 import About from "./About";
 import LastArticles from "./LastArticles";
 import Contact from "./Contact";
+import Blog from "./Blog";
 
 const Content = () => {
 
@@ -11,6 +12,7 @@ const Content = () => {
         <MainImage/>
         <Switch>
             <Route exact path='/' component={LastArticles}/>
+            <Route path='/blog' component={Blog}/>
             <Route path='/about' component={About}/>
             <Route path='/contact' component={Contact}/>
         </Switch>
