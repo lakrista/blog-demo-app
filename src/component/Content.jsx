@@ -5,6 +5,7 @@ import About from "./About";
 import LastArticles from "./LastArticles";
 import Contact from "./Contact";
 import Blog from "./Blog";
+import News from "./News";
 
 const Content = () => {
 
@@ -13,6 +14,7 @@ const Content = () => {
         <Switch>
             <Route exact path='/' component={LastArticles}/>
             <Route path='/blog' component={Blog}/>
+            <Route path='/contact' component={News}/>
             <Route path='/about' component={About}/>
             <Route path='/contact' component={Contact}/>
         </Switch>
