@@ -1,6 +1,6 @@
 import React from "react";
 
-const Blog = (props) => {
+const Blog = () => {
 
     return <div className="container-fluid">
         <div>Blog content</div>
