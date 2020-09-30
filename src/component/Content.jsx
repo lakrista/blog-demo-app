@@ -15,7 +15,7 @@ const Content = () => {
             <Route exact path='/' component={LastArticles}/>
             <Route path='/blog' component={Blog}/>
             <Route path='/contact' component={News}/>
-            <Route path='/about' component={About}/>
+            <Route exact path='/about' component={About}/>
             <Route path='/contact' component={Contact}/>
         </Switch>
     </div>
