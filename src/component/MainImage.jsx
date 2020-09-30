@@ -1,9 +1,9 @@
 import React from "react";
-import mainLogo from "../background-backlight-blur-color.jpg";
+import mainImage from "../background-backlight-blur-color.jpg";
 
-const MainImage = (props) => {
+const MainImage = () => {
 
-    return <div className="content-main-img"><img alt="" src={mainLogo}/></div>
+    return <div className="content-main-img"><img alt="" src={mainImage}/></div>
 };
 
 export default MainImage;
