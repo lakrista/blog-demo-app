@@ -1,6 +1,6 @@
 import React from "react";
 
-const Contact = (props) => {
+const Contact = () => {
 
     return <div className="container-fluid">
         <div>Contact content</div>
