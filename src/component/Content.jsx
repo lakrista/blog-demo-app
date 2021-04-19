@@ -7,12 +7,12 @@ import Contact from "./Contact";
 import Blog from "./Blog";
 import News from "./News";
 
-const Content = () => {
+const Content = (props) => {
 
     return <div className="content">
         <MainImage/>
         <Switch>
-            <Route exact path='/' component={LastArticles}/>
+            <Route exact path='/' render={() => <LastArticles articles={props.articles}/>}/>
             <Route path='/blog' component={Blog}/>
             <Route path='/contact' component={News}/>
             <Route exact path='/about' component={About}/>

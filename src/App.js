@@ -4,14 +4,14 @@ import './App.css';
 import Header from './component/Header';
 import Navbar from './component/Navbar';
 import Content from './component/Content';
-
+import articles from './data/articles.json';
 
 function App() {
     return (
         <div className="app-wrapper">
             <Header/>
             <Navbar/>
-            <Content/>
+            <Content articles={articles}/>
         </div>
 
     );
