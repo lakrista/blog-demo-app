@@ -4,11 +4,12 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import {BrowserRouter} from "react-router-dom";
+import articles from './data/articles.json';
 
 ReactDOM.render(
     <BrowserRouter>
         <React.StrictMode>
-            <App/>
+            <App articles={articles}/>
         </React.StrictMode>
     </BrowserRouter>,
     document.getElementById('root')
